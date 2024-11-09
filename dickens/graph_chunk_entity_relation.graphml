@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;PROJECT GUTENBERG&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Project Gutenberg is an organization that provides free ebooks and maintains this particular eBook under its license."</data>
+      <data key="d2">chunk-c06f1747ebabf11ad66101abfca33743</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;UNITED STATES&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"The United States is a geographical location where specific legal conditions related to this ebook apply."</data>
+      <data key="d2">chunk-c06f1747ebabf11ad66101abfca33743</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;A CHRISTMAS CAROL&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A Christmas Carol is a famous novella, the contents of which are the subject of this ebook."</data>
+      <data key="d2">chunk-c06f1747ebabf11ad66101abfca33743</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;CHARLES DICKENS&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Charles Dickens is the author of A Christmas Carol, a well-known English writer."</data>
+      <data key="d2">chunk-c06f1747ebabf11ad66101abfca33743</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;ARTHUR RACKHAM&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Arthur Rackham is the illustrator for this edition of A Christmas Carol, known for his artistic contributions."</data>
+      <data key="d2">chunk-c06f1747ebabf11ad66101abfca33743</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;J. B. LIPPINCOTT COMPANY&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"J. B. Lippincott Company is a publishing company involved in the original publication of this edition of A Christmas Carol."</data>
+      <data key="d2">chunk-c06f1747ebabf11ad66101abfca33743</data>
+    </node>
+    <node id="&quot;PHILADELPHIA&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"Philadelphia is a geographical location noted as part of the original publication details for A Christmas Carol."</data>
+      <data key="d2">chunk-c06f1747ebabf11ad66101abfca33743</data>
+    </node>
+    <node id="&quot;NEW YORK&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"New York is a geographical location noted as part of the original publication details for A Christmas Carol."</data>
+      <data key="d2">chunk-c06f1747ebabf11ad66101abfca33743</data>
+    </node>
+    <node id="&quot;SUZANNE SHELL&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Suzanne Shell is credited with producing this digital version of A Christmas Carol as part of the Online Distributed Proofreading Team."</data>
+      <data key="d2">chunk-c06f1747ebabf11ad66101abfca33743</data>
+    </node>
+    <node id="&quot;JANET BLENKINSHIP&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Janet Blenkinship is credited with producing this digital version of A Christmas Carol as part of the Online Distributed Proofreading Team."</data>
+      <data key="d2">chunk-c06f1747ebabf11ad66101abfca33743</data>
+    </node>
+    <node id="&quot;ONLINE DISTRIBUTED PROOFREADING TEAM&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Online Distributed Proofreading Team is credited for preparing the ebook version of A Christmas Carol."</data>
+      <data key="d2">chunk-c06f1747ebabf11ad66101abfca33743</data>
+    </node>
+    <edge source="&quot;PROJECT GUTENBERG&quot;" target="&quot;A CHRISTMAS CAROL&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Project Gutenberg distributes the ebook version of A Christmas Carol."</data>
+      <data key="d6">chunk-c06f1747ebabf11ad66101abfca33743</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;PROJECT GUTENBERG&quot;" target="&quot;UNITED STATES&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"There are specific legal conditions in the United States that affect the usage of ebooks distributed by Project Gutenberg."</data>
+      <data key="d6">chunk-c06f1747ebabf11ad66101abfca33743</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;A CHRISTMAS CAROL&quot;" target="&quot;CHARLES DICKENS&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"A Christmas Carol is a work authored by Charles Dickens."</data>
+      <data key="d6">chunk-c06f1747ebabf11ad66101abfca33743</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;A CHRISTMAS CAROL&quot;" target="&quot;ARTHUR RACKHAM&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Arthur Rackham illustrated this edition of A Christmas Carol."</data>
+      <data key="d6">chunk-c06f1747ebabf11ad66101abfca33743</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>
